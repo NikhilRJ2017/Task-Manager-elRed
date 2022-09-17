@@ -17,6 +17,7 @@ Before installing npm modules and run the project, create '.env' file into the p
 - NODEMAILER_HOST= add smtp host (hint: use ethereal mail for testing)
 - NODEMAILER_USER= add user
 - NODEMAILER_PASS= add password
+- CORS_ORIGIN= add origin url (optional: add this only if you are going to use the deployed frontend to test APIs)
 
 Although fallback has been provided for PORT, it is advisable to add your own value
 
